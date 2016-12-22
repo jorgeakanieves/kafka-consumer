@@ -1,0 +1,109 @@
+2016-12-22 18:16:00 DEBUG PartitionManager:303 - Last Enqueued offset 5 not incremented since previous Comitted Offset 5 for partition  Partition{host=127.0.0.1:9092, partition=0} for Consumer KafkaConsumerSjs.
+2016-12-22 18:16:00 DEBUG ReceiverSupervisorImpl:62 - state = Started
+2016-12-22 18:16:00 DEBUG RecurringTimer:62 - Callback for BlockGenerator called at time 1482426960800
+2016-12-22 18:16:00 DEBUG ReceiverSupervisorImpl:62 - state = Started
+2016-12-22 18:16:00 INFO  PartitionManager:137 - <o> In Next
+2016-12-22 18:16:00 INFO  PartitionManager:139 - <o> In Next - is empty
+2016-12-22 18:16:00 INFO  PartitionManager:226 - <o> In Fill
+2016-12-22 18:16:00 INFO  PartitionManager:228 - <o> In Fill : 5
+2016-12-22 18:16:00 DEBUG KafkaUtils:92 - Fetching from Kafka for partition 0 for fetchSize 102400 and bufferSize 204800
+2016-12-22 18:16:00 INFO  PartitionManager:258 - <o> In Fill: suppose to be ok
+2016-12-22 18:16:00 INFO  PartitionManager:263 - <o> In Fill: each message
+2016-12-22 18:16:00 INFO  PartitionManager:265 - <o> In Fill: each message:: java.nio.HeapByteBuffer[pos=0 lim=68 cap=68]
+2016-12-22 18:16:00 DEBUG PartitionManager:272 - Total 1 messages from Kafka: 127.0.0.1 : 0 there in internal buffers
+2016-12-22 18:16:00 INFO  PartitionManager:152 - <o> In Next: 5 -- java.nio.HeapByteBuffer[pos=0 lim=68 cap=68]
+2016-12-22 18:16:00 DEBUG PartitionManager:173 - Store for topic inputTopic for partition 0 is 5 
+2016-12-22 18:16:00 DEBUG PartitionManager:190 - Saving data enqueued:: 5
+2016-12-22 18:16:00 DEBUG PartitionManager:191 - Saving data committed:: 5
+2016-12-22 18:16:00 DEBUG PartitionManager:192 - Saving data EMPTY:: true
+2016-12-22 18:16:00 DEBUG PartitionManager:197 - Trigger Block Manager Write for Partition 0
+2016-12-22 18:16:00 DEBUG PartitionManager:200 - Saving data GOO
+2016-12-22 18:16:00 DEBUG ReceiverSupervisorImpl:62 - state = Started
+2016-12-22 18:16:00 DEBUG PartitionManager:204 - Saving data Store
+2016-12-22 18:16:00 INFO  MemoryStore:58 - Block input-0-1482426864608 stored as values in memory (estimated size 400.0 B, free 81.6 KB)
+2016-12-22 18:16:00 DEBUG BlockManagerMaster:62 - Updated info of block input-0-1482426864608
+2016-12-22 18:16:00 DEBUG BlockManager:62 - Told master about block input-0-1482426864608
+2016-12-22 18:16:00 DEBUG BlockManager:62 - Put block input-0-1482426864608 locally took  5 ms
+2016-12-22 18:16:00 DEBUG BlockManager:62 - Putting block input-0-1482426864608 without replication took  5 ms
+2016-12-22 18:16:00 DEBUG ReceiverSupervisorImpl:62 - Pushed block input-0-1482426864608 in 7 ms
+2016-12-22 18:16:00 DEBUG ReceiverSupervisorImpl:62 - Reported block input-0-1482426864608
+2016-12-22 18:16:00 DEBUG PartitionManager:208 - Saving data Commit
+2016-12-22 18:16:00 DEBUG PartitionManager:281 - LastComitted Offset 5
+2016-12-22 18:16:00 DEBUG PartitionManager:282 - New Emitted Offset 6
+2016-12-22 18:16:00 DEBUG PartitionManager:283 - Enqueued Offset 5
+2016-12-22 18:16:00 DEBUG PartitionManager:303 - Last Enqueued offset 5 not incremented since previous Comitted Offset 5 for partition  Partition{host=127.0.0.1:9092, partition=0} for Consumer KafkaConsumerSjs.
+2016-12-22 18:16:00 DEBUG ReceiverSupervisorImpl:62 - state = Started
+2016-12-22 18:16:01 DEBUG RecurringTimer:62 - Callback for BlockGenerator called at time 1482426961000
+2016-12-22 18:16:01 DEBUG ReceiverSupervisorImpl:62 - state = Started
+2016-12-22 18:16:01 INFO  PartitionManager:137 - <o> In Next
+2016-12-22 18:16:01 INFO  PartitionManager:139 - <o> In Next - is empty
+2016-12-22 18:16:01 INFO  PartitionManager:226 - <o> In Fill
+2016-12-22 18:16:01 INFO  PartitionManager:228 - <o> In Fill : 6
+2016-12-22 18:16:01 DEBUG KafkaUtils:92 - Fetching from Kafka for partition 0 for fetchSize 102400 and bufferSize 204800
+2016-12-22 18:16:01 INFO  PartitionManager:258 - <o> In Fill: suppose to be ok
+2016-12-22 18:16:01 DEBUG PartitionManager:190 - Saving data enqueued:: 5
+2016-12-22 18:16:01 DEBUG PartitionManager:191 - Saving data committed:: 5
+2016-12-22 18:16:01 DEBUG PartitionManager:192 - Saving data EMPTY:: true
+2016-12-22 18:16:01 DEBUG PartitionManager:197 - Trigger Block Manager Write for Partition 0
+2016-12-22 18:16:01 DEBUG PartitionManager:200 - Saving data GOO
+2016-12-22 18:16:01 DEBUG PartitionManager:208 - Saving data Commit
+2016-12-22 18:16:01 DEBUG PartitionManager:281 - LastComitted Offset 5
+2016-12-22 18:16:01 DEBUG PartitionManager:282 - New Emitted Offset 6
+2016-12-22 18:16:01 DEBUG PartitionManager:283 - Enqueued Offset 5
+2016-12-22 18:16:01 DEBUG PartitionManager:303 - Last Enqueued offset 5 not incremented since previous Comitted Offset 5 for partition  Partition{host=127.0.0.1:9092, partition=0} for Consumer KafkaConsumerSjs.
+2016-12-22 18:16:01 DEBUG ReceiverSupervisorImpl:62 - state = Started
+2016-12-22 18:16:01 DEBUG RecurringTimer:62 - Callback for BlockGenerator called at time 1482426961200
+2016-12-22 18:16:01 DEBUG ReceiverSupervisorImpl:62 - state = Started
+2016-12-22 18:16:01 INFO  PartitionManager:137 - <o> In Next
+2016-12-22 18:16:01 INFO  PartitionManager:139 - <o> In Next - is empty
+2016-12-22 18:16:01 INFO  PartitionManager:226 - <o> In Fill
+2016-12-22 18:16:01 INFO  PartitionManager:228 - <o> In Fill : 6
+2016-12-22 18:16:01 DEBUG KafkaUtils:92 - Fetching from Kafka for partition 0 for fetchSize 102400 and bufferSize 204800
+2016-12-22 18:16:01 INFO  PartitionManager:258 - <o> In Fill: suppose to be ok
+2016-12-22 18:16:01 DEBUG PartitionManager:190 - Saving data enqueued:: 5
+2016-12-22 18:16:01 DEBUG PartitionManager:191 - Saving data committed:: 5
+2016-12-22 18:16:01 DEBUG PartitionManager:192 - Saving data EMPTY:: true
+2016-12-22 18:16:01 DEBUG PartitionManager:197 - Trigger Block Manager Write for Partition 0
+2016-12-22 18:16:01 DEBUG PartitionManager:200 - Saving data GOO
+2016-12-22 18:16:01 DEBUG PartitionManager:208 - Saving data Commit
+2016-12-22 18:16:01 DEBUG PartitionManager:281 - LastComitted Offset 5
+2016-12-22 18:16:01 DEBUG PartitionManager:282 - New Emitted Offset 6
+2016-12-22 18:16:01 DEBUG PartitionManager:283 - Enqueued Offset 5
+2016-12-22 18:16:01 DEBUG PartitionManager:303 - Last Enqueued offset 5 not incremented since previous Comitted Offset 5 for partition  Partition{host=127.0.0.1:9092, partition=0} for Consumer KafkaConsumerSjs.
+2016-12-22 18:16:01 DEBUG ReceiverSupervisorImpl:62 - state = Started
+2016-12-22 18:16:01 DEBUG RecurringTimer:62 - Callback for BlockGenerator called at time 1482426961400
+2016-12-22 18:16:01 DEBUG ReceiverSupervisorImpl:62 - state = Started
+2016-12-22 18:16:01 INFO  PartitionManager:137 - <o> In Next
+2016-12-22 18:16:01 INFO  PartitionManager:139 - <o> In Next - is empty
+2016-12-22 18:16:01 INFO  PartitionManager:226 - <o> In Fill
+2016-12-22 18:16:01 INFO  PartitionManager:228 - <o> In Fill : 6
+2016-12-22 18:16:01 DEBUG KafkaUtils:92 - Fetching from Kafka for partition 0 for fetchSize 102400 and bufferSize 204800
+2016-12-22 18:16:01 INFO  PartitionManager:258 - <o> In Fill: suppose to be ok
+2016-12-22 18:16:01 DEBUG PartitionManager:190 - Saving data enqueued:: 5
+2016-12-22 18:16:01 DEBUG PartitionManager:191 - Saving data committed:: 5
+2016-12-22 18:16:01 DEBUG PartitionManager:192 - Saving data EMPTY:: true
+2016-12-22 18:16:01 DEBUG PartitionManager:197 - Trigger Block Manager Write for Partition 0
+2016-12-22 18:16:01 DEBUG PartitionManager:200 - Saving data GOO
+2016-12-22 18:16:01 DEBUG PartitionManager:208 - Saving data Commit
+2016-12-22 18:16:01 DEBUG PartitionManager:281 - LastComitted Offset 5
+2016-12-22 18:16:01 DEBUG PartitionManager:282 - New Emitted Offset 6
+2016-12-22 18:16:01 DEBUG PartitionManager:283 - Enqueued Offset 5
+2016-12-22 18:16:01 DEBUG PartitionManager:303 - Last Enqueued offset 5 not incremented since previous Comitted Offset 5 for partition  Partition{host=127.0.0.1:9092, partition=0} for Consumer KafkaConsumerSjs.
+2016-12-22 18:16:01 DEBUG ReceiverSupervisorImpl:62 - state = Started
+2016-12-22 18:16:01 DEBUG RecurringTimer:62 - Callback for BlockGenerator called at time 1482426961600
+2016-12-22 18:16:01 DEBUG ReceiverSupervisorImpl:62 - state = Started
+2016-12-22 18:16:01 INFO  PartitionManager:137 - <o> In Next
+2016-12-22 18:16:01 INFO  PartitionManager:139 - <o> In Next - is empty
+2016-12-22 18:16:01 INFO  PartitionManager:226 - <o> In Fill
+2016-12-22 18:16:01 INFO  PartitionManager:228 - <o> In Fill : 6
+2016-12-22 18:16:01 DEBUG KafkaUtils:92 - Fetching from Kafka for partition 0 for fetchSize 102400 and bufferSize 204800
+2016-12-22 18:16:01 INFO  PartitionManager:258 - <o> In Fill: suppose to be ok
+2016-12-22 18:16:01 DEBUG PartitionManager:190 - Saving data enqueued:: 5
+2016-12-22 18:16:01 DEBUG PartitionManager:191 - Saving data committed:: 5
+2016-12-22 18:16:01 DEBUG PartitionManager:192 - Saving data EMPTY:: true
+2016-12-22 18:16:01 DEBUG PartitionManager:197 - Trigger Block Manager Write for Partition 0
+2016-12-22 18:16:01 DEBUG PartitionManager:200 - Saving data GOO
+2016-12-22 18:16:01 DEBUG PartitionManager:208 - Saving data Commit
+2016-12-22 18:16:01 DEBUG PartitionManager:281 - LastComitted Offset 5
+2016-12-22 18:16:01 DEBUG PartitionManager:282 - New Emitted Offset 6
+2016-12-22 18:16:01 DEBUG PartitionManager:283 - Enqueued Offset 5
