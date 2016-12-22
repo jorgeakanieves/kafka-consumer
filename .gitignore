@@ -1,0 +1,7 @@
+/.idea/
+/.settings/
+/target/
+/metastore_db/
+.classpath
+.project
+dependency-reduced-pom.xml
